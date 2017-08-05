@@ -1,5 +1,6 @@
 body {
-  background-color: #fff;
+  background-image: url("../To_Do_List.png");
+  background-size: auto;
   color: #333;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -7,10 +8,17 @@ body {
   line-height: 18px;
 }
 
+h1 {
+  color: white;
+  font-family: cursive;
+  font-size: 5em;
+}
+
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  color:white;
 }
 
 pre {
@@ -20,24 +28,29 @@ pre {
 }
 
 a {
-  color: #000;
+  color: white;
 
   &:visited {
-    color: #666;
+    color: beige;
   }
 
   &:hover {
-    color: #fff;
+    color: white;
     background-color: #000;
   }
 }
 
 th {
+  color: white;
+  font-family:cursive;
   padding-bottom: 5px;
 }
 
 td {
   padding: 0 5px 7px;
+  color: white;
+  font-family:cursive;
+  text-decoration: none;
 }
 
 div {
@@ -47,7 +60,7 @@ div {
 }
 
 #notice {
-  color: green;
+  color: white;
 }
 
 .field_with_errors {
@@ -76,6 +89,7 @@ div {
   ul li {
     font-size: 12px;
     list-style: square;
+    color: white;
   }
 }
 

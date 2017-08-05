@@ -1,3 +1,21 @@
 // Place all the styles related to the todo_items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1{
+  color:white;
+}
+
+#todo_item_description{
+  background-color: white;
+  border-radius: 0;
+}
+
+.field {
+  color:white;
+}
+
+input, textarea, select, button {
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+}
